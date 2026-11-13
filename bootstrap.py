@@ -43,6 +43,7 @@ with tempfile.TemporaryDirectory(prefix='encrypted-job-', dir='/tmp') as directo
     print('SOURCE_COMMIT=' + manifest['source_commit'], flush=True)
     if sys.argv[1:] != ['--verify-only']:
         os.environ['BUNDLE_ID'] = manifest['bundle_id']
+        os.environ['SOURCE_COMMIT'] = manifest['source_commit']
         code = subprocess.call(manifest['entry'] + sys.argv[1:], cwd=source)
         print(f'BOOTSTRAP_EXIT={code}', flush=True)
         raise SystemExit(code)
