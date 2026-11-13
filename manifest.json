@@ -1,0 +1,7 @@
+{
+  "bundle_id": "kimi-recsys-sft-cpu-v1-09a3dba2",
+  "format": "fernet+tar.gz",
+  "payload_bytes": 2291704,
+  "payload_sha256": "ca5fca327d47c5141e83652e965940bfc7da0173f2ca51c5341714ad82efba54",
+  "source_commit": "09a3dba2a512983b228d1f20d46bb0f171ea22cf"
+}
