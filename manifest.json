@@ -1,7 +1,7 @@
 {
-  "bundle_id": "kimi-recsys-sft-gpu-v2-72edefb7",
+  "bundle_id": "kimi-recsys-sft-gpu-v3-844bd4ab",
   "format": "fernet+tar.gz",
-  "payload_bytes": 2291300,
-  "payload_sha256": "fbc44361434bc223806d9d52f2bae655787798e9601e33d9599d6eace73c1a2c",
-  "source_commit": "72edefb7b9a7ed7f875cfb7d8f1d38242ff8ba45"
+  "payload_bytes": 2291340,
+  "payload_sha256": "5e1738bc131ff7fbe0907d139a4382f5d45a2251a73367de5ee2775a1aae9f0f",
+  "source_commit": "844bd4ab500ef6b19a92523c5ee5bb8814cf5157"
 }
